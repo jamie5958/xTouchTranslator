@@ -1,0 +1,657 @@
+{
+    "midi_in": "USB MIDI Interface 2",
+    "midi_out": "USB MIDI Interface 3",
+    "midi_virtual": "loopMIDI Port 2",
+    "scribble_strips": {
+        "page_0": {
+            "fader_0": {
+                "color": "white",
+                "second_line_inverted": false,
+                "line_one_text": "Page 1",
+                "line_two_text": "1"
+            },
+            "fader_1": {
+                "color": "red",
+                "second_line_inverted": false,
+                "line_one_text": "Page 1",
+                "line_two_text": "2"
+            },
+            "fader_2": {
+                "color": "green",
+                "second_line_inverted": false,
+                "line_one_text": "Page 1",
+                "line_two_text": "3"
+            },
+            "fader_3": {
+                "color": "blue",
+                "second_line_inverted": false,
+                "line_one_text": "Page 1",
+                "line_two_text": "4"
+            },
+            "fader_4": {
+                "color": "yellow",
+                "second_line_inverted": false,
+                "line_one_text": "Page 1",
+                "line_two_text": "5"
+            },
+            "fader_5": {
+                "color": "pink",
+                "second_line_inverted": false,
+                "line_one_text": "Page 1",
+                "line_two_text": "6"
+            },
+            "fader_6": {
+                "color": "white",
+                "second_line_inverted": false,
+                "line_one_text": "Page 1",
+                "line_two_text": "7"
+            },
+            "fader_7": {
+                "color": "red",
+                "second_line_inverted": false,
+                "line_one_text": "Page 1",
+                "line_two_text": "8"
+            }
+        },
+        "page_1": {
+            "fader_0": {
+                "color": "red",
+                "second_line_inverted": false,
+                "line_one_text": "Page 2",
+                "line_two_text": "1"
+            },
+            "fader_1": {
+                "color": "green",
+                "second_line_inverted": false,
+                "line_one_text": "Page 2",
+                "line_two_text": "2"
+            },
+            "fader_2": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_3": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_4": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_5": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_6": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_7": {
+                "color": "cyan",
+                "second_line_inverted": false,
+                "line_one_text": "Stuff",
+                "line_two_text": "Chick"
+            }
+        },
+        "page_2": {
+            "fader_0": {
+                "color": "green",
+                "second_line_inverted": false,
+                "line_one_text": "Page 3",
+                "line_two_text": ""
+            },
+            "fader_1": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_2": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_3": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_4": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_5": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_6": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_7": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            }
+        },
+        "page_3": {
+            "fader_0": {
+                "color": "blue",
+                "second_line_inverted": false,
+                "line_one_text": "Page 4",
+                "line_two_text": ""
+            },
+            "fader_1": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_2": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_3": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_4": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_5": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_6": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_7": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            }
+        },
+        "page_4": {
+            "fader_0": {
+                "color": "blue",
+                "second_line_inverted": false,
+                "line_one_text": "Page 5",
+                "line_two_text": ""
+            },
+            "fader_1": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_2": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_3": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_4": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_5": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_6": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_7": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            }
+        },
+        "page_5": {
+            "fader_0": {
+                "color": "yellow",
+                "second_line_inverted": false,
+                "line_one_text": "Page 6",
+                "line_two_text": ""
+            },
+            "fader_1": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_2": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_3": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_4": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_5": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_6": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_7": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            }
+        },
+        "page_6": {
+            "fader_0": {
+                "color": "pink",
+                "second_line_inverted": false,
+                "line_one_text": "Page 7",
+                "line_two_text": ""
+            },
+            "fader_1": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_2": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_3": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_4": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_5": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_6": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_7": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            }
+        },
+        "page_7": {
+            "fader_0": {
+                "color": "cyan",
+                "second_line_inverted": false,
+                "line_one_text": "Page 8",
+                "line_two_text": ""
+            },
+            "fader_1": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_2": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_3": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_4": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_5": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_6": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_7": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            }
+        },
+        "page_8": {
+            "fader_0": {
+                "color": "white",
+                "second_line_inverted": false,
+                "line_one_text": "Page 9",
+                "line_two_text": ""
+            },
+            "fader_1": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_2": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_3": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_4": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_5": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_6": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_7": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            }
+        },
+        "page_9": {
+            "fader_0": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_1": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_2": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_3": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_4": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_5": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_6": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_7": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            }
+        },
+        "page_10": {
+            "fader_0": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_1": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_2": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_3": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_4": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_5": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_6": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_7": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            }
+        },
+        "page_11": {
+            "fader_0": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_1": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_2": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_3": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_4": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_5": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_6": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_7": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            }
+        },
+        "page_12": {
+            "fader_0": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_1": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_2": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_3": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_4": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_5": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_6": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            },
+            "fader_7": {
+                "color": "off",
+                "second_line_inverted": false,
+                "line_one_text": "",
+                "line_two_text": ""
+            }
+        }
+    }
+}
