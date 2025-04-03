@@ -8,6 +8,7 @@ This build is a proof of concept. The only thing working at this moment is writi
 If you want to test this yourself, run config_app.py with Python 3.7
 The Python version is so old because I require this app to run on a Mac with MacOS Sierra.
 This should still run on any machine as long as you have the correct python version and the correct dependencies shown in the .venv folder.
+*I just learned that Python is backwards compatible starting with Python 3.3. So, ths may work with the latest. I have not tested it though.*
 
 These are for my setup specifically. I am using a USB MIDI interface with the MIDI ports on the XTouch.
 midi_virtual is a placeholder for the software. It has no function currently, so set it to any MIDI output other than the ones used for the XTouch.
