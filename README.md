@@ -5,11 +5,9 @@ This build is a proof of concept. The only thing working at this moment is writi
   Click the white buttons on top of the scribble strips to set text and color.
   Press the FADER BANK buttons on the physical XTouch to navigate the fader pages.
 
-If you want to test this yourself, change the midi_in and midi_out in config.json to your appropriate midi interface.
-It is prefilled with 
-    "midi_in": "USB MIDI Interface 2",
-    "midi_out": "USB MIDI Interface 3",
-    "midi_virtual": "loopMIDI Port 2",...
+If you want to test this yourself, run config_app.py with Python 3.7
+The Python version is so old because I require this app to run on a Mac with MacOS Sierra.
+This should still run on any machine as long as you have the correct python version and the correct dependencies shown in the .venv folder.
 
 These are for my setup specifically. I am using a USB MIDI interface with the MIDI ports on the XTouch.
 midi_virtual is a placeholder for the software. It has no function currently, so set it to any MIDI output other than the ones used for the XTouch.
