@@ -1,7 +1,7 @@
 {
     "midi_in": "USB MIDI Interface 2",
     "midi_out": "USB MIDI Interface 3",
-    "midi_virtual": "loopMIDI Port 2",
+    "midi_virtual": "Microsoft GS Wavetable Synth 0",
     "scribble_strips": {
         "page_0": {
             "fader_0": {
@@ -97,10 +97,10 @@
                 "line_two_text": ""
             },
             "fader_7": {
-                "color": "cyan",
+                "color": "off",
                 "second_line_inverted": false,
-                "line_one_text": "Stuff",
-                "line_two_text": "Chick"
+                "line_one_text": "",
+                "line_two_text": ""
             }
         },
         "page_2": {

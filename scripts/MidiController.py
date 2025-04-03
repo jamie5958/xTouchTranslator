@@ -67,3 +67,8 @@ class MidiController:
     def send_midi_message(self, message):
         self.midi_out.send_message(message)
         print(f"Sent MIDI message: {message}")
+
+    def convert_pitch_wheel_to_control_change(self, pitch_wheel_value):
+        # Convert pitch wheel value to control change value
+        control_change_value = int((pitch_wheel_value + 1) * 127.5)
+        return control_change_value

@@ -1,5 +1,5 @@
 import sys
-from PyQt5.QtWidgets import QMainWindow, QMenu, QAction, QApplication, QGraphicsView, QGraphicsScene, QGraphicsPixmapItem
+from PyQt5.QtWidgets import QMainWindow, QMenu, QAction, QApplication, QGraphicsView, QGraphicsScene, QGraphicsPixmapItem, QLabel
 from PyQt5.QtGui import QPixmap
 from MidiDeviceManager import MidiDeviceManager
 from ConfigManager import ConfigManager
@@ -24,9 +24,12 @@ class XTouchConfigApp(QMainWindow):
         self.setGeometry(100, 100, 1200, 818)
         self.create_menu()
 
+        # Adjust the height of the QGraphicsView to account for the menu bar
+        menu_bar_height = self.menuBar().height()
+
         # Create a QGraphicsView to display the image
         self.graphics_view = QGraphicsView(self)
-        self.graphics_view.setGeometry(0, 0, 1200, 818)
+        self.graphics_view.setGeometry(0, menu_bar_height, 1200, 818 - menu_bar_height) # Adjust height to account for menu bar
 
         # Create a QGraphicsScene and load the image
         self.scene = QGraphicsScene(self)
@@ -81,7 +84,7 @@ class XTouchConfigApp(QMainWindow):
 
         # Debugging: Check items in the scene
         for item in self.scene.items():
-            print(f"Debug: Item in scene = {item}, Z-value = {item.zValue()}")
+            print(f"Debug: Item in scene = {item}, Z-value = {item.zValue()}")  
 
     def change_page(self, direction):
         self.midi_device_manager.page_manager.change_page(direction)

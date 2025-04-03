@@ -1,4 +1,4 @@
-from PyQt5.QtWidgets import QDialog, QVBoxLayout, QComboBox, QDialogButtonBox
+from PyQt5.QtWidgets import QDialog, QGridLayout, QComboBox, QDialogButtonBox, QLabel
 from ConfigManager import ConfigManager
 
 class MidiDeviceSelectionDialog(QDialog):
@@ -7,16 +7,30 @@ class MidiDeviceSelectionDialog(QDialog):
         self.midi_device_manager = midi_device_manager
         self.setWindowTitle("MIDI Device Selection")
 
-        layout = QVBoxLayout()
+        layout = QGridLayout()  # Use QGridLayout for better control over positioning
 
-        # Create combo boxes
+        # Create labels and combo boxes
+        label1 = QLabel("Select MIDI Input (MIDI Out on XTouch):", self)
         self.midi_input_combo = QComboBox(self)
-        self.midi_output_combo = QComboBox(self)
-        self.midi_virtual_combo = QComboBox(self)
-
         self.midi_input_combo.addItems(self.midi_device_manager.midi_in_devices)
+
+        label2 = QLabel("Select MIDI Output (MIDI In on XTouch):", self)
+        self.midi_output_combo = QComboBox(self)
         self.midi_output_combo.addItems(self.midi_device_manager.midi_out_devices)
+
+        label3 = QLabel("Select MIDI Virtual Output (Software/DAW):", self)
+        self.midi_virtual_combo = QComboBox(self)
         self.midi_virtual_combo.addItems(self.midi_device_manager.midi_virtual_devices)
+
+        # Add labels and combo boxes to the grid layout
+        layout.addWidget(label1, 0, 0)  # Row 0, Column 0
+        layout.addWidget(self.midi_input_combo, 0, 1)  # Row 0, Column 1
+
+        layout.addWidget(label2, 1, 0)  # Row 1, Column 0
+        layout.addWidget(self.midi_output_combo, 1, 1)  # Row 1, Column 1
+
+        layout.addWidget(label3, 2, 0)  # Row 2, Column 0
+        layout.addWidget(self.midi_virtual_combo, 2, 1)  # Row 2, Column 1
 
         # Preselect saved devices
         config_manager = ConfigManager()
@@ -35,14 +49,11 @@ class MidiDeviceSelectionDialog(QDialog):
         self.midi_output_combo.currentIndexChanged.connect(self.on_midi_output_change)
         self.midi_virtual_combo.currentIndexChanged.connect(self.on_midi_virtual_change)
 
-        layout.addWidget(self.midi_input_combo)
-        layout.addWidget(self.midi_output_combo)
-        layout.addWidget(self.midi_virtual_combo)
-
+        # Add dialog buttons
         buttons = QDialogButtonBox(QDialogButtonBox.Ok | QDialogButtonBox.Cancel)
         buttons.accepted.connect(self.accept)
         buttons.rejected.connect(self.reject)
-        layout.addWidget(buttons)
+        layout.addWidget(buttons, 3, 0, 1, 2)  # Span across 2 columns
 
         self.setLayout(layout)
 
