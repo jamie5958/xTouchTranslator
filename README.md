@@ -1,3 +1,6 @@
+UPDATE!: The follwing information regarding the python virtual environment is not accurate and will not work. Due to the difficulty of setting up Python virtual environments cross platform, I will be releasing python built applications instead of the entire source code. This will reduce the complexity of setting this application up. I will continue to leave the code open source and also provide the built applications for both Windows and Mac OS. Stay tuned for an update.
+
+
 This is a Python application that manages communication between a Behringer XTouch Universal Control Surface and a DAW like software.
 I am building this specifically for QLab, but it may work in other software given the design.
 
